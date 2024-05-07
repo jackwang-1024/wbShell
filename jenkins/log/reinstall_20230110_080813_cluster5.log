@@ -1,0 +1,761 @@
+[2023-01-10 07:57:16,720][INFO] config sudo privileges
+[2023-01-10 07:57:16,727][INFO] no need to config ssh StrictHostKeyChecking
+[2023-01-10 07:57:16,736][INFO] the os-release: CentOS Linux
+[2023-01-10 07:57:16,917][INFO] openssh has been installed
+[2023-01-10 07:57:16,924][INFO] expect has been installed
+[2023-01-10 07:57:16,931][INFO] wget has been installed
+[2023-01-10 07:57:16,936][INFO] read redeploy config file. 
+[2023-01-10 07:57:16,945][INFO] read cluster5 info.
+[2023-01-10 07:57:16,969][INFO] 172.16.202.47 is correct
+[2023-01-10 07:57:17,433][INFO] ping 172.16.202.47 successfully
+[2023-01-10 07:57:17,442][INFO] id_rsa.pub has exist
+[2023-01-10 07:57:17,893][INFO] local host to 172.16.202.47 has been configured 
+[2023-01-10 07:57:17,899][INFO] 172.16.202.48 is correct
+[2023-01-10 07:57:17,909][INFO] ping 172.16.202.48 successfully
+[2023-01-10 07:57:17,916][INFO] id_rsa.pub has exist
+[2023-01-10 07:57:18,091][INFO] local host to 172.16.202.48 has been configured 
+[2023-01-10 07:57:18,097][INFO] 172.16.202.49 is correct
+[2023-01-10 07:57:18,106][INFO] ping 172.16.202.49 successfully
+[2023-01-10 07:57:18,112][INFO] id_rsa.pub has exist
+[2023-01-10 07:57:18,288][INFO] local host to 172.16.202.49 has been configured 
+[2023-01-10 07:57:18,464][INFO] the cluster os-release: centos
+[2023-01-10 07:57:18,474][INFO] find the pkg: hcdserver-2.2.0-165.el7.noarch.rpm 
+[33m[2023-01-10 07:57:18,484][WARN][0m didn't find md5sum of hcdserver-2.2.0-165.el7.noarch.rpm
+[2023-01-10 07:57:25,298][INFO] start to copy package to servers!!!
+[2023-01-10 07:57:25,475][INFO] the 172.16.202.47 with update_config.sh 
+[2023-01-10 07:57:25,480][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.47
+[2023-01-10 07:57:43,178][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.47 successfully
+[2023-01-10 07:57:43,348][INFO] the 172.16.202.48 with update_config.sh 
+[2023-01-10 07:57:43,354][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.48
+[2023-01-10 07:58:01,085][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.48 successfully
+[2023-01-10 07:58:01,264][INFO] the 172.16.202.49 with update_config.sh 
+[2023-01-10 07:58:01,269][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.49
+[2023-01-10 07:58:19,021][INFO] scp hcdserver-2.2.0-165.el7.noarch.rpm to 172.16.202.49 successfully
+
+
+[2023-01-10 07:58:19,027][INFO] start to reinstall cluster5
+[2023-01-10 07:58:19,032][INFO] 172.16.202.47 purge hcdserver
+-----------------
+run prerm script
+[2023-01-10 07:57:01,693][INFO] Stop hcdmgmt.service
+[2023-01-10 07:57:32,204][INFO] Stop hcdadmin.service
+[2023-01-10 07:57:32,212][INFO] Stop hcddaelaam.service
+[2023-01-10 07:57:32,219][INFO] Stop hcdsa.service
+[2023-01-10 07:57:32,233][INFO] Stop hcdagent.service
+[2023-01-10 07:57:32,589][INFO] Stop hcdcollectstat.service
+[2023-01-10 07:57:32,598][INFO] Stop hcdkeepalived.service
+-----------------
+run postrm script
+[2023-01-10 07:57:33,622][INFO] [/tmp/postrm/purge/]
+[2023-01-10 07:57:33,626][INFO] Unmask services if they are masked by hcdboot.service
+[2023-01-10 07:57:33,906][INFO] Disable hcd services
+[2023-01-10 07:57:34,382][INFO] Finish post remove.
+[2023-01-10 07:57:34,420][INFO] Clean up ntp config
+[2023-01-10 07:57:34,457][INFO] cleanup dns mapping in /etc/hosts
+/var/log/hcd/
+/var/log/hcd/install/
+/var/log/hcd/install/install.log
+/var/log/hcd/install/agent.log
+/var/log/hcd/stats/
+/var/log/hcd/stats/stats_iotop.log
+/var/log/hcd/stats/stats_dstat.log
+/var/log/hcd/stats/stats_iostat.log
+/var/log/hcd/stats/stats_infiniband.log
+/var/log/hcd/stats/stats_memtop.log
+/var/log/hcd/stats/stats_meminfo.log
+/var/log/hcd/stats/stats_iotop.log-20230108.gz
+/var/log/hcd/stats/stats_iostat.log-20230109.gz
+/var/log/hcd/stats/sa.log.2
+/var/log/hcd/stats/sa.log.1
+/var/log/hcd/stats/stats_iotop.log-20221228.gz
+/var/log/hcd/stats/stats.log-20221229.gz
+/var/log/hcd/stats/stats_iotop.log-20221230.gz
+/var/log/hcd/stats/stats_iostat.log-20221231.gz
+/var/log/hcd/stats/stats_iotop.log-20221231.gz
+/var/log/hcd/stats/stats_iostat.log-20230101.gz
+/var/log/hcd/stats/stats_infiniband.log-20230108.gz
+/var/log/hcd/stats/stats.log-20230101.gz
+/var/log/hcd/stats/stats_iotop.log-20230101.gz
+/var/log/hcd/stats/stats_iostat.log-20230102.gz
+/var/log/hcd/stats/sa.log
+/var/log/hcd/stats/stats_iotop.log-20230102.gz
+/var/log/hcd/stats/stats_iostat.log-20230103.gz
+/var/log/hcd/stats/stats_iotop.log-20230103.gz
+/var/log/hcd/stats/stats_iostat.log-20230104.gz
+/var/log/hcd/stats/stats_infiniband.log-20230110.gz
+/var/log/hcd/stats/stats.log-20230104.gz
+/var/log/hcd/stats/stats_iotop.log-20230104.gz
+/var/log/hcd/stats/stats_iostat.log-20230105.gz
+/var/log/hcd/stats/stats_meminfo.log-20230105.gz
+/var/log/hcd/stats/stats_iostat.log-20230106.gz
+/var/log/hcd/stats/stats_iotop.log-20230106.gz
+/var/log/hcd/stats/stats_infiniband.log-20230106.gz
+/var/log/hcd/stats/stats_iostat.log-20230107.gz
+/var/log/hcd/stats/stats_infiniband.log-20230107.gz
+/var/log/hcd/stats/stats.log
+/var/log/hcd/stats/stats.log-20230107.gz
+/var/log/hcd/stats/stats_iotop.log-20230107.gz
+/var/log/hcd/stats/stats_iostat.log-20230108.gz
+/var/log/hcd/stats/stats_infiniband.log-20230109.gz
+/var/log/hcd/cli/
+/var/log/hcd/cli/hcli-thrift.log
+/var/log/hcd/daelaam/
+/var/log/hcd/daelaam/gc/
+/var/log/hcd/daelaam/gc/gc-3260
+/var/log/hcd/daelaam/stats/
+/var/log/hcd/daelaam/stats/stats-3260
+/var/log/hcd/daelaam/fg/
+/var/log/hcd/daelaam/fg/fg-3260
+/var/log/hcd/daelaam/nvmf-tgt-3260.log
+/var/log/hcd/daelaam/daelaam-3260.log.5
+/var/log/hcd/daelaam/daelaam-3260.log.4
+/var/log/hcd/daelaam/daelaam-3260.log.3
+/var/log/hcd/daelaam/daelaam-3260.log.2
+/var/log/hcd/daelaam/daelaam-3260.log.1
+/var/log/hcd/daelaam/daelaam-3260.log
+/var/log/hcd/daelaam/tgt-3260.log.5
+/var/log/hcd/daelaam/tgt-3260.log.4
+/var/log/hcd/daelaam/tgt-3260.log.3
+/var/log/hcd/daelaam/tgt-3260.log.2
+/var/log/hcd/daelaam/tgt-3260.log.1
+/var/log/hcd/daelaam/tgt-3260.log
+/var/log/hcd/archon/
+/var/log/hcd/archon/gc-archon-pid62136-2022-12-26_06-38-16.log.0.current
+/var/log/hcd/archon/history.log
+/var/log/hcd/archon/arbiter.log
+/var/log/hcd/archon/vipconfig.log
+/var/log/hcd/archon/gc-archon-pid67654-2022-12-26_06-40-00.log.0
+/var/log/hcd/archon/gc-archon-pid67654-2022-12-26_06-40-00.log.1.current
+/var/log/hcd/archon/archon.log.7.gz
+/var/log/hcd/archon/archon.log.6.gz
+/var/log/hcd/archon/archon.log.5.gz
+/var/log/hcd/archon/archon.log.4.gz
+/var/log/hcd/archon/archon.log.3.gz
+/var/log/hcd/archon/archon.log.2.gz
+/var/log/hcd/archon/archon.log
+/var/log/hcd/archon/archon.log.1.gz
+/var/log/hcd/mgmtserver/
+/var/log/hcd/mgmtserver/vasa.log
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-26.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-27.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-28.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-29.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-30.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-31.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-01.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-02.log.0.gz
+/var/log/hcd/mgmtserver/audit.log
+/var/log/hcd/mgmtserver/audit.2022-12-26.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-03.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-04.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-05.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-06.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-07.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-08.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.log
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-09.log.0.gz
+[2023-01-10 07:58:30,492][INFO] Purged hcdserver db
+[2023-01-10 07:58:30,932][INFO] --->Cleaned hcd keepalived config
+[2023-01-10 07:58:30,936][INFO] --->Cleaned hcd keepalived log
+[2023-01-10 07:58:31,013][INFO] Clean up hcdserver folder.
+[2023-01-10 07:58:31,016][INFO] Finish post purge.
+[2023-01-10 07:59:59,508][INFO] 172.16.202.47 purge hcdserver successfully
+[2023-01-10 07:59:59,513][INFO] 172.16.202.48 purge hcdserver
+-----------------
+run prerm script
+[2023-01-10 07:58:42,176][INFO] Stop hcdmgmt.service
+[2023-01-10 07:59:12,505][INFO] Stop hcdadmin.service
+[2023-01-10 07:59:12,512][INFO] Stop hcddaelaam.service
+[2023-01-10 07:59:12,519][INFO] Stop hcdsa.service
+[2023-01-10 07:59:12,533][INFO] Stop hcdagent.service
+[2023-01-10 07:59:12,735][INFO] Stop hcdcollectstat.service
+[2023-01-10 07:59:12,744][INFO] Stop hcdkeepalived.service
+-----------------
+run postrm script
+[2023-01-10 07:59:13,770][INFO] [/tmp/postrm/purge/]
+[2023-01-10 07:59:13,775][INFO] Unmask services if they are masked by hcdboot.service
+[2023-01-10 07:59:14,070][INFO] Disable hcd services
+[2023-01-10 07:59:14,570][INFO] Finish post remove.
+[2023-01-10 07:59:14,607][INFO] Clean up ntp config
+[2023-01-10 07:59:14,639][INFO] cleanup dns mapping in /etc/hosts
+/var/log/hcd/
+/var/log/hcd/install/
+/var/log/hcd/install/install.log
+/var/log/hcd/install/agent.log
+/var/log/hcd/stats/
+/var/log/hcd/stats/stats_iotop.log
+/var/log/hcd/stats/stats_dstat.log
+/var/log/hcd/stats/stats_iostat.log
+/var/log/hcd/stats/stats_infiniband.log
+/var/log/hcd/stats/stats_meminfo.log
+/var/log/hcd/stats/stats_memtop.log
+/var/log/hcd/stats/stats_infiniband.log-20230109.gz
+/var/log/hcd/stats/stats_iotop.log-20221227.gz
+/var/log/hcd/stats/stats_iostat.log-20230109.gz
+/var/log/hcd/stats/stats_iotop.log-20221229.gz
+/var/log/hcd/stats/stats.log-20221229.gz
+/var/log/hcd/stats/stats_iotop.log-20221230.gz
+/var/log/hcd/stats/stats_iostat.log-20221231.gz
+/var/log/hcd/stats/stats_iotop.log-20221231.gz
+/var/log/hcd/stats/stats_iostat.log-20230101.gz
+/var/log/hcd/stats/stats.log-20230101.gz
+/var/log/hcd/stats/stats_iostat.log-20230102.gz
+/var/log/hcd/stats/stats_iotop.log-20230102.gz
+/var/log/hcd/stats/stats_iostat.log-20230103.gz
+/var/log/hcd/stats/stats_iotop.log-20230103.gz
+/var/log/hcd/stats/stats_iostat.log-20230104.gz
+/var/log/hcd/stats/stats_infiniband.log-20230110.gz
+/var/log/hcd/stats/stats.log-20230104.gz
+/var/log/hcd/stats/sa.log.1
+/var/log/hcd/stats/sa.log
+/var/log/hcd/stats/stats_iotop.log-20230104.gz
+/var/log/hcd/stats/stats_iostat.log-20230105.gz
+/var/log/hcd/stats/stats_meminfo.log-20230105.gz
+/var/log/hcd/stats/stats_iotop.log-20230105.gz
+/var/log/hcd/stats/stats_iostat.log-20230106.gz
+/var/log/hcd/stats/stats_infiniband.log-20230106.gz
+/var/log/hcd/stats/stats_iostat.log-20230107.gz
+/var/log/hcd/stats/stats_infiniband.log-20230107.gz
+/var/log/hcd/stats/stats.log
+/var/log/hcd/stats/stats.log-20230107.gz
+/var/log/hcd/stats/stats_iotop.log-20230107.gz
+/var/log/hcd/stats/stats_iostat.log-20230108.gz
+/var/log/hcd/stats/stats_infiniband.log-20230108.gz
+/var/log/hcd/stats/stats_iotop.log-20230108.gz
+/var/log/hcd/cli/
+/var/log/hcd/cli/hcli-thrift.log
+/var/log/hcd/daelaam/
+/var/log/hcd/daelaam/gc/
+/var/log/hcd/daelaam/gc/gc-3260
+/var/log/hcd/daelaam/tgt-3260.log
+/var/log/hcd/daelaam/stats/
+/var/log/hcd/daelaam/stats/stats-3260
+/var/log/hcd/daelaam/fg/
+/var/log/hcd/daelaam/fg/fg-3260
+/var/log/hcd/daelaam/nvmf-tgt-3260.log
+/var/log/hcd/daelaam/daelaam-3260.log.2
+/var/log/hcd/daelaam/daelaam-3260.log.1
+/var/log/hcd/daelaam/daelaam-3260.log
+/var/log/hcd/archon/
+/var/log/hcd/archon/gc-archon-pid225123-2022-12-26_06-38-50.log.0.current
+/var/log/hcd/archon/archon.log
+/var/log/hcd/archon/history.log
+/var/log/hcd/archon/arbiter.log
+/var/log/hcd/archon/gc-archon-pid1033-2022-12-26_06-40-06.log.0.current
+/var/log/hcd/archon/vipconfig.log
+/var/log/hcd/mgmtserver/
+/var/log/hcd/mgmtserver/audit.log
+/var/log/hcd/mgmtserver/vasa.log
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-26.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-27.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-28.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-29.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-30.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-31.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-01.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-02.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-03.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-04.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-05.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-06.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-07.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-08.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.log
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-09.log.0.gz
+[2023-01-10 07:59:46,955][INFO] Purged hcdserver db
+[2023-01-10 07:59:47,389][INFO] --->Cleaned hcd keepalived config
+[2023-01-10 07:59:47,393][INFO] --->Cleaned hcd keepalived log
+[2023-01-10 07:59:47,420][INFO] Clean up hcdserver folder.
+[2023-01-10 07:59:47,423][INFO] Finish post purge.
+[2023-01-10 08:01:15,839][INFO] 172.16.202.48 purge hcdserver successfully
+[2023-01-10 08:01:15,844][INFO] 172.16.202.49 purge hcdserver
+-----------------
+run prerm script
+[2023-01-10 07:59:58,518][INFO] Stop hcdmgmt.service
+[2023-01-10 08:00:28,934][INFO] Stop hcdadmin.service
+[2023-01-10 08:00:28,941][INFO] Stop hcddaelaam.service
+[2023-01-10 08:00:28,949][INFO] Stop hcdsa.service
+[2023-01-10 08:00:28,963][INFO] Stop hcdagent.service
+[2023-01-10 08:00:29,318][INFO] Stop hcdcollectstat.service
+[2023-01-10 08:00:29,326][INFO] Stop hcdkeepalived.service
+-----------------
+run postrm script
+[2023-01-10 08:00:30,349][INFO] [/tmp/postrm/purge/]
+[2023-01-10 08:00:30,353][INFO] Unmask services if they are masked by hcdboot.service
+[2023-01-10 08:00:30,656][INFO] Disable hcd services
+[2023-01-10 08:00:31,141][INFO] Finish post remove.
+[2023-01-10 08:00:31,179][INFO] Clean up ntp config
+[2023-01-10 08:00:31,215][INFO] cleanup dns mapping in /etc/hosts
+/var/log/hcd/
+/var/log/hcd/install/
+/var/log/hcd/install/install.log
+/var/log/hcd/install/agent.log
+/var/log/hcd/stats/
+/var/log/hcd/stats/stats_iotop.log
+/var/log/hcd/stats/stats_dstat.log
+/var/log/hcd/stats/stats_iostat.log
+/var/log/hcd/stats/stats_infiniband.log
+/var/log/hcd/stats/stats_memtop.log
+/var/log/hcd/stats/stats_meminfo.log
+/var/log/hcd/stats/stats_infiniband.log-20230109.gz
+/var/log/hcd/stats/stats_iotop.log-20221227.gz
+/var/log/hcd/stats/stats_iostat.log-20230109.gz
+/var/log/hcd/stats/stats_iotop.log-20221229.gz
+/var/log/hcd/stats/stats.log-20221229.gz
+/var/log/hcd/stats/stats_iotop.log-20221230.gz
+/var/log/hcd/stats/stats_iostat.log-20221231.gz
+/var/log/hcd/stats/stats_iotop.log-20221231.gz
+/var/log/hcd/stats/stats_iostat.log-20230101.gz
+/var/log/hcd/stats/stats.log-20230101.gz
+/var/log/hcd/stats/stats_iostat.log-20230102.gz
+/var/log/hcd/stats/stats_iotop.log-20230102.gz
+/var/log/hcd/stats/stats_iostat.log-20230103.gz
+/var/log/hcd/stats/stats_iotop.log-20230103.gz
+/var/log/hcd/stats/stats_iostat.log-20230104.gz
+/var/log/hcd/stats/stats_infiniband.log-20230110.gz
+/var/log/hcd/stats/stats.log-20230104.gz
+/var/log/hcd/stats/stats_iotop.log-20230104.gz
+/var/log/hcd/stats/stats_iostat.log-20230105.gz
+/var/log/hcd/stats/stats_meminfo.log-20230105.gz
+/var/log/hcd/stats/stats_iotop.log-20230105.gz
+/var/log/hcd/stats/sa.log.1
+/var/log/hcd/stats/sa.log
+/var/log/hcd/stats/stats_iostat.log-20230106.gz
+/var/log/hcd/stats/stats_infiniband.log-20230106.gz
+/var/log/hcd/stats/stats.log
+/var/log/hcd/stats/stats.log-20230106.gz
+/var/log/hcd/stats/stats_iostat.log-20230107.gz
+/var/log/hcd/stats/stats_infiniband.log-20230107.gz
+/var/log/hcd/stats/stats_iotop.log-20230107.gz
+/var/log/hcd/stats/stats_iostat.log-20230108.gz
+/var/log/hcd/stats/stats_infiniband.log-20230108.gz
+/var/log/hcd/stats/stats_iotop.log-20230108.gz
+/var/log/hcd/cli/
+/var/log/hcd/cli/hcli-thrift.log
+/var/log/hcd/daelaam/
+/var/log/hcd/daelaam/gc/
+/var/log/hcd/daelaam/gc/gc-3260
+/var/log/hcd/daelaam/tgt-3260.log
+/var/log/hcd/daelaam/stats/
+/var/log/hcd/daelaam/stats/stats-3260
+/var/log/hcd/daelaam/fg/
+/var/log/hcd/daelaam/fg/fg-3260
+/var/log/hcd/daelaam/nvmf-tgt-3260.log
+/var/log/hcd/daelaam/daelaam-3260.log.2
+/var/log/hcd/daelaam/daelaam-3260.log.1
+/var/log/hcd/daelaam/daelaam-3260.log
+/var/log/hcd/archon/
+/var/log/hcd/archon/gc-archon-pid138994-2022-12-26_06-39-23.log.0.current
+/var/log/hcd/archon/archon.log
+/var/log/hcd/archon/history.log
+/var/log/hcd/archon/arbiter.log
+/var/log/hcd/archon/gc-archon-pid142404-2022-12-26_06-40-12.log.0.current
+/var/log/hcd/archon/vipconfig.log
+/var/log/hcd/mgmtserver/
+/var/log/hcd/mgmtserver/audit.log
+/var/log/hcd/mgmtserver/vasa.log
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-26.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-27.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-28.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-29.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-30.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2022-12-31.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-01.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-02.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-03.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-04.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-05.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-06.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-07.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-08.log.0.gz
+/var/log/hcd/mgmtserver/mgmtserver.log
+/var/log/hcd/mgmtserver/mgmtserver.2023-01-09.log.0.gz
+[2023-01-10 08:01:02,659][INFO] Purged hcdserver db
+[2023-01-10 08:01:03,108][INFO] --->Cleaned hcd keepalived config
+[2023-01-10 08:01:03,112][INFO] --->Cleaned hcd keepalived log
+[2023-01-10 08:01:03,139][INFO] Clean up hcdserver folder.
+[2023-01-10 08:01:03,142][INFO] Finish post purge.
+[2023-01-10 08:02:31,558][INFO] 172.16.202.49 purge hcdserver successfully
+[2023-01-10 08:02:31,564][INFO] 172.16.202.47 db purge
+
+
+[2023-01-10 08:01:13,367][INFO] Run db_purge.sh
+[2023-01-10 08:01:13,375][INFO] The specific version of zookeeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:01:19,697][INFO] remove cassandra data
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:01:19,887][INFO] reset cassandra yaml file
+[2023-01-10 08:01:19,901][INFO] reset /etc/cassandra/conf/cassandra-rackdc.properties file
+[2023-01-10 08:01:19,906][INFO] reset cassandra /etc/cassandra/conf/jvm.options file
+Restarting cassandra (via systemctl):  [FAILED]
+[2023-01-10 08:01:20,228][INFO] --->Cleaned hcd services
+154:export JMXPORT="2191"
+[2023-01-10 08:01:20,233][INFO] Clean up zookeeper JMXPORT environment config
+remove new line eof
+[2023-01-10 08:01:20,377][INFO] --->Cleaned zookeeper directories
+[2023-01-10 08:01:20,380][INFO] Finish cleanup database.
+[2023-01-10 08:02:38,772][INFO] 172.16.202.47 db purge successfully
+[2023-01-10 08:02:38,778][INFO] 172.16.202.48 db purge
+
+
+[2023-01-10 08:01:20,582][INFO] Run db_purge.sh
+[2023-01-10 08:01:20,590][INFO] The specific version of zookeeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:01:26,847][INFO] remove cassandra data
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:01:27,039][INFO] reset cassandra yaml file
+[2023-01-10 08:01:27,054][INFO] reset /etc/cassandra/conf/cassandra-rackdc.properties file
+[2023-01-10 08:01:27,058][INFO] reset cassandra /etc/cassandra/conf/jvm.options file
+Restarting cassandra (via systemctl):  [FAILED]
+[2023-01-10 08:01:27,384][INFO] --->Cleaned hcd services
+154:export JMXPORT="2191"
+[2023-01-10 08:01:27,389][INFO] Clean up zookeeper JMXPORT environment config
+remove new line eof
+[2023-01-10 08:01:27,536][INFO] --->Cleaned zookeeper directories
+[2023-01-10 08:01:27,539][INFO] Finish cleanup database.
+[2023-01-10 08:02:45,931][INFO] 172.16.202.48 db purge successfully
+[2023-01-10 08:02:45,937][INFO] 172.16.202.49 db purge
+
+
+[2023-01-10 08:01:27,740][INFO] Run db_purge.sh
+[2023-01-10 08:01:27,748][INFO] The specific version of zookeeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:01:33,916][INFO] remove cassandra data
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:01:34,110][INFO] reset cassandra yaml file
+[2023-01-10 08:01:34,128][INFO] reset /etc/cassandra/conf/cassandra-rackdc.properties file
+[2023-01-10 08:01:34,133][INFO] reset cassandra /etc/cassandra/conf/jvm.options file
+Restarting cassandra (via systemctl):  [FAILED]
+[2023-01-10 08:01:34,461][INFO] --->Cleaned hcd services
+154:export JMXPORT="2191"
+[2023-01-10 08:01:34,466][INFO] Clean up zookeeper JMXPORT environment config
+remove new line eof
+[2023-01-10 08:01:34,642][INFO] --->Cleaned zookeeper directories
+[2023-01-10 08:01:34,645][INFO] Finish cleanup database.
+[2023-01-10 08:02:53,037][INFO] 172.16.202.49 db purge successfully
+[2023-01-10 08:03:03,045][INFO] 172.16.202.47 db config
+
+
+[2023-01-10 08:01:44,851][INFO] Run db_config.sh
+[2023-01-10 08:01:44,855][INFO] This host OS is centos
+[2023-01-10 08:01:44,861][INFO] get_my_info
+[2023-01-10 08:01:45,388][INFO] My public ip is 172.16.202.47
+[2023-01-10 08:01:45,509][INFO] Need to install zookeeper on this node, my_id: [0]
+[2023-01-10 08:01:45,512][INFO] seeds ip: [192.168.206.47,192.168.206.48,192.168.206.49]
+[2023-01-10 08:01:45,516][INFO] cassandra_install: [true] zookeeper_install: [true]
+[2023-01-10 08:01:45,519][INFO] [./db_config.sh//]: [host_name=hcd47/public_ip=172.16.202.47/ib_ip=192.168.206.47
+[2023-01-10 08:01:45,522][INFO] Find zookeeper directory /etc/zookeeper and zookeeper initialize file /etc/zookeeper/zkrun.sh
+[2023-01-10 08:01:45,527][INFO] The specific version of zookeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:01:45,530][INFO] config cassandra cluster
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:01:45,601][INFO] kill cassandra process using pid 178845
+[2023-01-10 08:01:45,609][INFO] touch cassandra.pid if not exist.
+[2023-01-10 08:01:45,631][INFO] concurrent_reads=16  concurrent_counter_writes=16  concurrent_writes=320  concurrent_materialized_view_writes=16
+[2023-01-10 08:01:55,955][INFO] start to check cassandra status
+[2023-01-10 08:01:57,053][INFO] Cassandra is up and running
+[2023-01-10 08:01:58,995][INFO] number of nodes in cassandra cluster: 1
+[2023-01-10 08:02:04,002][INFO] config zookeeper cluster
+[2023-01-10 08:02:04,034][INFO] id=[0], ip=[192.168.206.47], peer=[]
+[2023-01-10 08:02:04,042][INFO] generate conf/zoo.cfg
+[2023-01-10 08:02:04,048][INFO] Update /etc/zookeeper/zookeeper-3.5.9/bin/zkEnv.sh with JMXPORT
+Using myid of 0
+[2023-01-10 08:02:04,079][INFO] Launching zookeeper with id=0, ip=192.168.206.47
+[2023-01-10 08:02:04,087][INFO] Update zookeeper service file
+[2023-01-10 08:02:04,099][INFO] Making zookeeper as a system service
+[2023-01-10 08:02:05,355][INFO] Started zk as a new quorum 192.168.206.47:2181
+[2023-01-10 08:02:05,360][INFO] Finish db install.
+[2023-01-10 08:03:23,754][INFO] 172.16.202.47 db config successfully
+[2023-01-10 08:03:53,762][INFO] 172.16.202.48 db config
+
+
+[2023-01-10 08:02:35,568][INFO] Run db_config.sh
+[2023-01-10 08:02:35,572][INFO] This host OS is centos
+[2023-01-10 08:02:35,578][INFO] get_my_info
+[2023-01-10 08:02:36,144][INFO] My public ip is 172.16.202.48
+[2023-01-10 08:02:36,263][INFO] Need to install zookeeper on this node, my_id: [1]
+[2023-01-10 08:02:36,267][INFO] seeds ip: [192.168.206.47,192.168.206.48,192.168.206.49]
+[2023-01-10 08:02:36,270][INFO] cassandra_install: [true] zookeeper_install: [true]
+[2023-01-10 08:02:36,273][INFO] [./db_config.sh//]: [host_name=hcd48/public_ip=172.16.202.48/ib_ip=192.168.206.48
+[2023-01-10 08:02:36,276][INFO] Find zookeeper directory /etc/zookeeper and zookeeper initialize file /etc/zookeeper/zkrun.sh
+[2023-01-10 08:02:36,281][INFO] The specific version of zookeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:02:36,285][INFO] config cassandra cluster
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:02:36,357][INFO] kill cassandra process using pid 200908
+[2023-01-10 08:02:36,365][INFO] touch cassandra.pid if not exist.
+[2023-01-10 08:02:36,388][INFO] concurrent_reads=16  concurrent_counter_writes=16  concurrent_writes=320  concurrent_materialized_view_writes=16
+[2023-01-10 08:02:46,714][INFO] start to check cassandra status
+[2023-01-10 08:02:47,864][INFO] Cassandra is up and running
+[2023-01-10 08:02:49,880][INFO] number of nodes in cassandra cluster: 2
+[2023-01-10 08:02:49,883][INFO] Successfully joined an existing cassandra cluster
+[2023-01-10 08:02:49,887][INFO] nodetool repair to boot up cassandra seed node
+[2023-01-10 08:03:01,823][INFO] config zookeeper cluster
+[2023-01-10 08:03:01,855][INFO] id=[1], ip=[192.168.206.48], peer=[192.168.206.47:2181]
+[2023-01-10 08:03:01,864][INFO] generate conf/zoo.cfg
+[2023-01-10 08:03:01,870][INFO] Update /etc/zookeeper/zookeeper-3.5.9/bin/zkEnv.sh with JMXPORT
+Using myid of 1
+[2023-01-10 08:03:01,900][INFO] Launching zookeeper with id=1, ip=192.168.206.48
+[2023-01-10 08:03:01,905][INFO] Getting peer list from 192.168.206.47:2181
+[2023-01-10 08:03:02,557][INFO] Received peer list: [server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181]
+[2023-01-10 08:03:02,561][INFO] New peer list: [server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181
+server.1=192.168.206.48:2888:3888:participant;192.168.206.48:2181]
+[2023-01-10 08:03:02,569][INFO] Update zookeeper service file
+[2023-01-10 08:03:02,582][INFO] Making zookeeper as a system service
+Connecting to 192.168.206.47:2181
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+Committed new configuration:
+server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181
+server.1=192.168.206.48:2888:3888:participant;192.168.206.48:2181
+version=100000003
+[2023-01-10 08:03:06,501][INFO] Successfully joined an existing zk quorum 192.168.206.47:2181
+[2023-01-10 08:03:06,506][INFO] Finish db install.
+[2023-01-10 08:04:24,901][INFO] 172.16.202.48 db config successfully
+[2023-01-10 08:04:54,910][INFO] 172.16.202.49 db config
+
+
+[2023-01-10 08:03:36,714][INFO] Run db_config.sh
+[2023-01-10 08:03:36,718][INFO] This host OS is centos
+[2023-01-10 08:03:36,724][INFO] get_my_info
+[2023-01-10 08:03:37,323][INFO] My public ip is 172.16.202.49
+[2023-01-10 08:03:37,443][INFO] Need to install zookeeper on this node, my_id: [2]
+[2023-01-10 08:03:37,446][INFO] seeds ip: [192.168.206.47,192.168.206.48,192.168.206.49]
+[2023-01-10 08:03:37,449][INFO] cassandra_install: [true] zookeeper_install: [true]
+[2023-01-10 08:03:37,452][INFO] [./db_config.sh//]: [host_name=hcd49/public_ip=172.16.202.49/ib_ip=192.168.206.49
+[2023-01-10 08:03:37,455][INFO] Find zookeeper directory /etc/zookeeper and zookeeper initialize file /etc/zookeeper/zkrun.sh
+[2023-01-10 08:03:37,461][INFO] The specific version of zookeeper dir is /etc/zookeeper/zookeeper-3.5.9
+[2023-01-10 08:03:37,464][INFO] config cassandra cluster
+Stopping cassandra (via systemctl):  [  OK  ]
+[2023-01-10 08:03:37,534][INFO] kill cassandra process using pid 119782
+[2023-01-10 08:03:37,541][INFO] touch cassandra.pid if not exist.
+[2023-01-10 08:03:37,565][INFO] concurrent_reads=16  concurrent_counter_writes=16  concurrent_writes=320  concurrent_materialized_view_writes=16
+[2023-01-10 08:03:47,895][INFO] start to check cassandra status
+[2023-01-10 08:03:49,111][INFO] Cassandra is up and running
+[2023-01-10 08:03:51,238][INFO] number of nodes in cassandra cluster: 3
+[2023-01-10 08:03:51,242][INFO] Successfully joined an existing cassandra cluster
+[2023-01-10 08:03:51,245][INFO] nodetool repair to boot up cassandra seed node
+[2023-01-10 08:04:03,107][INFO] config zookeeper cluster
+[2023-01-10 08:04:03,138][INFO] id=[2], ip=[192.168.206.49], peer=[192.168.206.47:2181]
+[2023-01-10 08:04:03,146][INFO] generate conf/zoo.cfg
+[2023-01-10 08:04:03,152][INFO] Update /etc/zookeeper/zookeeper-3.5.9/bin/zkEnv.sh with JMXPORT
+Using myid of 2
+[2023-01-10 08:04:03,183][INFO] Launching zookeeper with id=2, ip=192.168.206.49
+[2023-01-10 08:04:03,188][INFO] Getting peer list from 192.168.206.47:2181
+[2023-01-10 08:04:03,814][INFO] Received peer list: [server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181
+server.1=192.168.206.48:2888:3888:participant;192.168.206.48:2181]
+[2023-01-10 08:04:03,819][INFO] New peer list: [server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181
+server.1=192.168.206.48:2888:3888:participant;192.168.206.48:2181
+server.2=192.168.206.49:2888:3888:participant;192.168.206.49:2181]
+[2023-01-10 08:04:03,826][INFO] Update zookeeper service file
+[2023-01-10 08:04:03,839][INFO] Making zookeeper as a system service
+Connecting to 192.168.206.47:2181
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+Committed new configuration:
+server.0=192.168.206.47:2888:3888:participant;192.168.206.47:2181
+server.1=192.168.206.48:2888:3888:participant;192.168.206.48:2181
+server.2=192.168.206.49:2888:3888:participant;192.168.206.49:2181
+version=100000008
+[2023-01-10 08:04:07,728][INFO] Successfully joined an existing zk quorum 192.168.206.47:2181
+[2023-01-10 08:04:07,734][INFO] Finish db install.
+[2023-01-10 08:05:26,129][INFO] 172.16.202.49 db config successfully
+[2023-01-10 08:05:56,138][INFO] 172.16.202.47 install hcdserver 
+Preparing...                          ########################################
+Updating / installing...
+hcdserver-2.2.0-165.el7               ########################################
+-----------------
+run postinst script
+This host is CentOS system
+[2023-01-10 08:04:56,120][INFO] environment pre_setup
+[2023-01-10 08:04:56,126][INFO] Swap is off on this server.
+[2023-01-10 08:04:56,129][INFO] Permanently disable swapping
+[2023-01-10 08:04:56,138][INFO] Update messages logrotate
+[2023-01-10 08:04:57,168][INFO] get_my_info
+[2023-01-10 08:04:57,219][INFO] install mode is fresh install.
+[2023-01-10 08:04:57,344][INFO] specified mgmtserver port is: null.
+[2023-01-10 08:04:58,752][INFO] internal network does not use bond interface.
+[2023-01-10 08:04:58,942][INFO] reset_nvdimm
+[2023-01-10 08:04:58,946][INFO] This host is using optane.
+[2023-01-10 08:04:58,949][INFO] WRITE_CACHE_MODEL is [
+  "PHMB747000PJ280CGN"
+].
+[2023-01-10 08:04:58,952][INFO] get_vip_info
+[2023-01-10 08:04:58,966][INFO] Initial value of VRID=[205]
+[2023-01-10 08:04:58,999][INFO] Got vip_info=[172.16.202.205/enp175s0f1/205]
+[2023-01-10 08:04:59,002][INFO] [/usr/share/hcdserver/DEBIAN/postinst//]: [host_name=hcd47/public_ip=172.16.202.47/ib_ip=192.168.206.47/virtual_ip=172.16.202.205]
+[2023-01-10 08:04:59,006][INFO] Update ntp server/client config
+[2023-01-10 08:04:59,010][INFO] This host is configured as ntp server
+[2023-01-10 08:04:59,019][INFO] IP=[172.16.202.47]/CIDR=[/24]/SUBNET=[255.255.255.0]/NETWORK=[172.16.202.0]
+[2023-01-10 08:04:59,051][INFO] Verify keepalived vrid for mgmt vip
+[2023-01-10 08:04:59,060][INFO] Restarting keepalived
+[2023-01-10 08:05:09,172][INFO] Valid VRID=[205]
+[2023-01-10 08:05:09,178][INFO] Update hcd config with server local setup
+[2023-01-10 08:05:09,183][INFO] Config stats agent
+[2023-01-10 08:05:09,192][INFO] Config webui
+[2023-01-10 08:05:09,204][INFO] Config hcli
+[2023-01-10 08:05:09,213][INFO] Config archon
+[2023-01-10 08:05:09,224][INFO] Update diskFormFactorList in archon config.json.
+[2023-01-10 08:05:09,275][INFO] Config internalDataTransferAddressList in archon config.json.
+[2023-01-10 08:05:09,325][INFO] Config iscsiPortalAddressList in archon config.json.
+[2023-01-10 08:05:09,374][INFO] Config write_cache_model in archon config.json.
+[2023-01-10 08:05:09,471][INFO] Please update readCacheModel according to readCacheType:"SATA" manually!
+[2023-01-10 08:05:09,475][INFO] Update ignoredDiskList in archon config.json.
+[2023-01-10 08:05:09,517][INFO] Config mgmtserver
+[2023-01-10 08:05:09,526][INFO] Config daelaam
+[2023-01-10 08:05:09,575][INFO] Update foreground_walog_config metadata_journal in daelaam config.json.
+[2023-01-10 08:05:09,660][INFO] Update memory_partition_config write_cache_size in daelaam config.json.
+[2023-01-10 08:05:09,737][INFO] Update background_config flush_agent_period in daelaam config.json.
+[2023-01-10 08:05:09,821][INFO] Update walog_config in daelaam config.json.
+[2023-01-10 08:05:09,907][INFO] Update read_cache_config in daelaam config.json.
+[2023-01-10 08:05:09,998][INFO] Update rdma support in daelaam config.json.
+[2023-01-10 08:05:10,093][INFO] Update enable tcp teleport in daelaam config.json.
+[2023-01-10 08:05:10,144][INFO] cpu model name	: Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz.
+[2023-01-10 08:05:10,148][INFO] No specified cpu found. Keep daelaam config as default.
+[2023-01-10 08:05:10,151][WARNING] Please update daelaam config manually to get better performance!
+[2023-01-10 08:05:10,531][INFO] Register python argcomplete hcli and source bashrc
+[2023-01-10 08:05:10,604][INFO] Update hcd config with database setup
+[2023-01-10 08:05:10,608][INFO] Config cassandra and zookeeper address in archon
+[2023-01-10 08:05:10,662][INFO] Config cassandra and zookeeper address in mgmtserver
+[2023-01-10 08:05:10,682][INFO] Start hcd services
+[2023-01-10 08:05:14,200][INFO] Finish postinstall.
+[2023-01-10 08:06:32,602][INFO] 172.16.202.47 install hcdserver successfully
+[2023-01-10 08:06:32,607][INFO] 172.16.202.48 install hcdserver 
+Preparing...                          ########################################
+Updating / installing...
+hcdserver-2.2.0-165.el7               ########################################
+-----------------
+run postinst script
+This host is CentOS system
+[2023-01-10 08:05:32,809][INFO] environment pre_setup
+[2023-01-10 08:05:32,815][INFO] Swap is off on this server.
+[2023-01-10 08:05:32,818][INFO] Permanently disable swapping
+[2023-01-10 08:05:32,827][INFO] Update messages logrotate
+[2023-01-10 08:05:33,856][INFO] get_my_info
+[2023-01-10 08:05:33,910][INFO] install mode is fresh install.
+[2023-01-10 08:05:34,036][INFO] specified mgmtserver port is: null.
+[2023-01-10 08:05:35,438][INFO] internal network does not use bond interface.
+[2023-01-10 08:05:35,623][INFO] reset_nvdimm
+[2023-01-10 08:05:35,627][INFO] This host is using optane.
+[2023-01-10 08:05:35,630][INFO] WRITE_CACHE_MODEL is [
+  "PHMB747200F5280CGN"
+].
+[2023-01-10 08:05:35,634][INFO] get_vip_info
+[2023-01-10 08:05:35,648][INFO] Initial value of VRID=[205]
+[2023-01-10 08:05:35,682][INFO] Got vip_info=[172.16.202.205/enp175s0f1/205]
+[2023-01-10 08:05:35,685][INFO] [/usr/share/hcdserver/DEBIAN/postinst//]: [host_name=hcd48/public_ip=172.16.202.48/ib_ip=192.168.206.48/virtual_ip=172.16.202.205]
+[2023-01-10 08:05:35,689][INFO] Update ntp server/client config
+[2023-01-10 08:05:35,693][INFO] This host is configured as ntp client
+[2023-01-10 08:05:35,727][INFO] Verify keepalived vrid for mgmt vip
+[2023-01-10 08:05:35,736][INFO] Restarting keepalived
+[2023-01-10 08:05:35,824][INFO] Update hcd config with server local setup
+[2023-01-10 08:05:35,828][INFO] Config stats agent
+[2023-01-10 08:05:35,835][INFO] Config webui
+[2023-01-10 08:05:35,845][INFO] Config hcli
+[2023-01-10 08:05:35,852][INFO] Config archon
+[2023-01-10 08:05:35,862][INFO] Update diskFormFactorList in archon config.json.
+[2023-01-10 08:05:35,912][INFO] Config internalDataTransferAddressList in archon config.json.
+[2023-01-10 08:05:35,961][INFO] Config iscsiPortalAddressList in archon config.json.
+[2023-01-10 08:05:36,009][INFO] Config write_cache_model in archon config.json.
+[2023-01-10 08:05:36,096][INFO] Please update readCacheModel according to readCacheType:"SATA" manually!
+[2023-01-10 08:05:36,100][INFO] Update ignoredDiskList in archon config.json.
+[2023-01-10 08:05:36,148][INFO] Config mgmtserver
+[2023-01-10 08:05:36,156][INFO] Config daelaam
+[2023-01-10 08:05:36,206][INFO] Update foreground_walog_config metadata_journal in daelaam config.json.
+[2023-01-10 08:05:36,291][INFO] Update memory_partition_config write_cache_size in daelaam config.json.
+[2023-01-10 08:05:36,385][INFO] Update background_config flush_agent_period in daelaam config.json.
+[2023-01-10 08:05:36,470][INFO] Update walog_config in daelaam config.json.
+[2023-01-10 08:05:36,566][INFO] Update read_cache_config in daelaam config.json.
+[2023-01-10 08:05:36,659][INFO] Update rdma support in daelaam config.json.
+[2023-01-10 08:05:36,752][INFO] Update enable tcp teleport in daelaam config.json.
+[2023-01-10 08:05:36,804][INFO] cpu model name	: Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz.
+[2023-01-10 08:05:36,808][INFO] No specified cpu found. Keep daelaam config as default.
+[2023-01-10 08:05:36,811][WARNING] Please update daelaam config manually to get better performance!
+[2023-01-10 08:05:37,198][INFO] Register python argcomplete hcli and source bashrc
+[2023-01-10 08:05:37,270][INFO] Update hcd config with database setup
+[2023-01-10 08:05:37,274][INFO] Config cassandra and zookeeper address in archon
+[2023-01-10 08:05:37,330][INFO] Config cassandra and zookeeper address in mgmtserver
+[2023-01-10 08:05:37,350][INFO] Start hcd services
+[2023-01-10 08:05:40,909][INFO] Finish postinstall.
+[2023-01-10 08:06:59,311][INFO] 172.16.202.48 install hcdserver successfully
+[2023-01-10 08:06:59,317][INFO] 172.16.202.49 install hcdserver 
+Preparing...                          ########################################
+Updating / installing...
+hcdserver-2.2.0-165.el7               ########################################
+-----------------
+run postinst script
+This host is CentOS system
+[2023-01-10 08:05:59,355][INFO] environment pre_setup
+[2023-01-10 08:05:59,360][INFO] Swap is off on this server.
+[2023-01-10 08:05:59,364][INFO] Permanently disable swapping
+[2023-01-10 08:05:59,373][INFO] Update messages logrotate
+[2023-01-10 08:06:00,403][INFO] get_my_info
+[2023-01-10 08:06:00,454][INFO] install mode is fresh install.
+[2023-01-10 08:06:00,581][INFO] specified mgmtserver port is: null.
+[2023-01-10 08:06:01,996][INFO] internal network does not use bond interface.
+[2023-01-10 08:06:02,179][INFO] reset_nvdimm
+[2023-01-10 08:06:02,182][INFO] This host is using optane.
+[2023-01-10 08:06:02,185][INFO] WRITE_CACHE_MODEL is [
+  "PHMB747200C4280CGN"
+].
+[2023-01-10 08:06:02,189][INFO] get_vip_info
+[2023-01-10 08:06:02,202][INFO] Initial value of VRID=[205]
+[2023-01-10 08:06:02,235][INFO] Got vip_info=[172.16.202.205/enp175s0f1/205]
+[2023-01-10 08:06:02,239][INFO] [/usr/share/hcdserver/DEBIAN/postinst//]: [host_name=hcd49/public_ip=172.16.202.49/ib_ip=192.168.206.49/virtual_ip=172.16.202.205]
+[2023-01-10 08:06:02,243][INFO] Update ntp server/client config
+[2023-01-10 08:06:02,247][INFO] This host is configured as ntp client
+[2023-01-10 08:06:02,273][INFO] Verify keepalived vrid for mgmt vip
+[2023-01-10 08:06:02,282][INFO] Restarting keepalived
+[2023-01-10 08:06:02,367][INFO] Update hcd config with server local setup
+[2023-01-10 08:06:02,371][INFO] Config stats agent
+[2023-01-10 08:06:02,379][INFO] Config webui
+[2023-01-10 08:06:02,390][INFO] Config hcli
+[2023-01-10 08:06:02,398][INFO] Config archon
+[2023-01-10 08:06:02,408][INFO] Update diskFormFactorList in archon config.json.
+[2023-01-10 08:06:02,456][INFO] Config internalDataTransferAddressList in archon config.json.
+[2023-01-10 08:06:02,496][INFO] Config iscsiPortalAddressList in archon config.json.
+[2023-01-10 08:06:02,547][INFO] Config write_cache_model in archon config.json.
+[2023-01-10 08:06:02,644][INFO] Please update readCacheModel according to readCacheType:"SATA" manually!
+[2023-01-10 08:06:02,648][INFO] Update ignoredDiskList in archon config.json.
+[2023-01-10 08:06:02,698][INFO] Config mgmtserver
+[2023-01-10 08:06:02,706][INFO] Config daelaam
+[2023-01-10 08:06:02,755][INFO] Update foreground_walog_config metadata_journal in daelaam config.json.
+[2023-01-10 08:06:02,840][INFO] Update memory_partition_config write_cache_size in daelaam config.json.
+[2023-01-10 08:06:02,916][INFO] Update background_config flush_agent_period in daelaam config.json.
+[2023-01-10 08:06:02,994][INFO] Update walog_config in daelaam config.json.
+[2023-01-10 08:06:03,088][INFO] Update read_cache_config in daelaam config.json.
+[2023-01-10 08:06:03,181][INFO] Update rdma support in daelaam config.json.
+[2023-01-10 08:06:03,274][INFO] Update enable tcp teleport in daelaam config.json.
+[2023-01-10 08:06:03,327][INFO] cpu model name	: Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz.
+[2023-01-10 08:06:03,330][INFO] No specified cpu found. Keep daelaam config as default.
+[2023-01-10 08:06:03,334][WARNING] Please update daelaam config manually to get better performance!
+[2023-01-10 08:06:03,731][INFO] Register python argcomplete hcli and source bashrc
+[2023-01-10 08:06:03,810][INFO] Update hcd config with database setup
+[2023-01-10 08:06:03,814][INFO] Config cassandra and zookeeper address in archon
+[2023-01-10 08:06:03,870][INFO] Config cassandra and zookeeper address in mgmtserver
+[2023-01-10 08:06:03,891][INFO] Start hcd services
+[2023-01-10 08:06:07,408][INFO] Finish postinstall.
+[2023-01-10 08:07:25,811][INFO] 172.16.202.49 install hcdserver successfully
+[2023-01-10 08:07:55,819][INFO] 172.16.202.47 update_config
+stop hcdadmin service
+disable to automatically restart hcdadmin service
+disable to restart hcddaelaam service
+change LimitCORE to infinity
+start hcdadmin service
+[2023-01-10 08:08:01,672][INFO] 172.16.202.47 update_config successfully
+[2023-01-10 08:08:01,677][INFO] 172.16.202.48 update_config
+stop hcdadmin service
+disable to automatically restart hcdadmin service
+disable to restart hcddaelaam service
+change LimitCORE to infinity
+start hcdadmin service
+[2023-01-10 08:08:07,531][INFO] 172.16.202.48 update_config successfully
+[2023-01-10 08:08:07,536][INFO] 172.16.202.49 update_config
+stop hcdadmin service
+disable to automatically restart hcdadmin service
+disable to restart hcddaelaam service
+change LimitCORE to infinity
+start hcdadmin service
+[2023-01-10 08:08:13,378][INFO] 172.16.202.49 update_config successfully
+
+
+[2023-01-10 08:08:13,385][INFO] End

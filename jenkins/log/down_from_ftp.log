@@ -1,0 +1,579 @@
+[2021-12-15 02:12:41,520][INFO] download from ftp
+[2021-12-15 02:22:49,718][INFO] download [hcdserver-2.1.0-167.el7.noarch.rpm] successfully!
+[2021-12-15 02:22:53,025][INFO] download [hcdserver-2.1.0-167.el7.noarch.rpm.md5sum] successfully!
+[2021-12-15 02:23:14,313][INFO] download [hcdcli-2.1.0b1-167.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-167.el7.noarch.rpm: OK
+[2021-12-15 02:23:15,200][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2021-12-20 06:12:31,128][INFO] download from ftp
+[2021-12-20 06:13:57,189][INFO] download [hcdserver-2.1.0-170.el7.noarch.rpm] successfully!
+[2021-12-20 06:13:59,262][INFO] download [hcdserver-2.1.0-170.el7.noarch.rpm.md5sum] successfully!
+[2021-12-20 06:14:02,229][INFO] download [hcdcli-2.1.0b1-170.el7.noarch.rpm] successfully!
+[2021-12-23 05:45:36,063][INFO] download from ftp
+[2021-12-23 05:47:12,865][INFO] download [hcdserver-2.2.0-35.el7.noarch.rpm] successfully!
+[2021-12-23 05:47:15,182][INFO] download [hcdserver-2.2.0-35.el7.noarch.rpm.md5sum] successfully!
+[2021-12-23 05:47:18,427][INFO] download [hcdcli-2.2.0b1-35.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-35.el7.noarch.rpm: OK
+[2021-12-23 05:47:19,309][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[31m[2021-12-28 05:28:02,199][ERROR][0m didn't find the build folder in ftp server
+[33m[2021-12-28 05:28:02,204][WARN][0m please check build id!
+[31m[2021-12-28 05:28:28,950][ERROR][0m didn't find the build folder in ftp server
+[33m[2021-12-28 05:28:28,955][WARN][0m please check build id!
+[2022-01-04 02:07:29,984][INFO] download from ftp
+[2022-01-04 02:09:05,896][INFO] download [hcdserver-2.1.0-175.el7.noarch.rpm] successfully!
+[2022-01-04 02:09:07,916][INFO] download [hcdserver-2.1.0-175.el7.noarch.rpm.md5sum] successfully!
+[2022-01-04 02:09:11,692][INFO] download [hcdcli-2.2.0b1-36.el7.noarch.rpm] successfully!
+[2022-01-04 02:09:11,903][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-05 03:18:09,679][INFO] download from ftp
+[2022-01-05 03:19:36,016][INFO] download [hcdserver-2.2.0-36.el7.noarch.rpm] successfully!
+[2022-01-05 03:19:38,071][INFO] download [hcdserver-2.2.0-36.el7.noarch.rpm.md5sum] successfully!
+[2022-01-05 03:19:38,081][INFO] download [hcdcli-2.2.0b1-36.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-36.el7.noarch.rpm: OK
+[2022-01-05 03:19:38,917][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-05 07:06:35,133][INFO] download from ftp
+[2022-01-05 07:07:56,804][INFO] download [hcdserver-2.1.0-174.el7.noarch.rpm] successfully!
+[2022-01-05 07:07:59,094][INFO] download [hcdserver-2.1.0-174.el7.noarch.rpm.md5sum] successfully!
+[2022-01-05 07:08:02,299][INFO] download [hcdcli-2.1.0b1-174.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-174.el7.noarch.rpm: OK
+[2022-01-05 07:08:03,041][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-12 07:54:24,494][INFO] download from ftp
+[2022-01-12 07:55:54,436][INFO] download [hcdserver-2.2.0-37.el7.noarch.rpm] successfully!
+[2022-01-12 07:55:56,621][INFO] download [hcdserver-2.2.0-37.el7.noarch.rpm.md5sum] successfully!
+[2022-01-12 07:55:59,792][INFO] download [hcdcli-2.2.0b1-37.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-37.el7.noarch.rpm: OK
+[2022-01-12 07:56:00,611][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-17 07:28:17,881][INFO] download from ftp
+[2022-01-17 07:29:52,334][INFO] download [hcdserver-2.2.0-39.el7.noarch.rpm] successfully!
+[2022-01-17 07:29:54,807][INFO] download [hcdserver-2.2.0-39.el7.noarch.rpm.md5sum] successfully!
+[2022-01-17 07:29:58,991][INFO] download [hcdcli-2.2.0b1-39.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-39.el7.noarch.rpm: OK
+[2022-01-17 07:29:59,850][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-19 06:27:45,372][INFO] download from ftp
+[2022-01-19 06:29:14,314][INFO] download [hcdserver-2.2.0-40.el7.noarch.rpm] successfully!
+[2022-01-19 06:29:16,600][INFO] download [hcdserver-2.2.0-40.el7.noarch.rpm.md5sum] successfully!
+[2022-01-19 06:29:20,231][INFO] download [hcdcli-2.2.0b1-40.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-40.el7.noarch.rpm: OK
+[2022-01-19 06:29:21,043][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[31m[2022-01-24 02:04:40,477][ERROR][0m didn't find the build folder in ftp server
+[33m[2022-01-24 02:04:40,482][WARN][0m please check build id!
+[2022-01-24 02:58:22,933][INFO] download from ftp
+[2022-01-24 03:00:00,833][INFO] download [hcdserver-2.2.0-41.el7.noarch.rpm] successfully!
+[2022-01-24 03:00:03,176][INFO] download [hcdserver-2.2.0-41.el7.noarch.rpm.md5sum] successfully!
+[2022-01-24 03:00:07,503][INFO] download [hcdcli-2.2.0b1-41.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-41.el7.noarch.rpm: OK
+[2022-01-24 03:00:08,296][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-26 02:53:48,808][INFO] download from ftp
+[2022-01-26 02:55:40,460][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm] successfully!
+[2022-01-26 02:55:42,934][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm.md5sum] successfully!
+[2022-01-26 02:55:46,588][INFO] download [hcdcli-2.2.0b1-42.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-42.el7.noarch.rpm: OK
+[2022-01-26 02:55:47,436][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-27 05:23:22,605][INFO] download from ftp
+[2022-01-27 05:23:23,550][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm
+hcdserver-2.2.0-43.el7.noarch.rpm] successfully!
+[2022-01-27 05:23:25,967][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm
+hcdserver-2.2.0-43.el7.noarch.rpm.md5sum] successfully!
+[2022-01-27 05:23:46,343][INFO] download [hcdcli-2.2.0b1-43.el7.noarch.rpm] successfully!
+[2022-01-27 05:23:46,641][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-01-28 05:33:00,264][INFO] download from ftp
+[2022-01-28 05:34:19,938][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm] successfully!
+[2022-01-28 05:34:22,475][INFO] download [hcdserver-2.2.0-42.el7.noarch.rpm.md5sum] successfully!
+[2022-01-28 05:34:22,485][INFO] download [hcdcli-2.2.0b1-42.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-42.el7.noarch.rpm: OK
+[2022-01-28 05:34:23,325][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-02-08 07:39:15,374][INFO] download from ftp
+[2022-02-08 07:40:57,242][INFO] download [hcdserver-2.2.0-45.el7.noarch.rpm] successfully!
+[2022-02-08 07:40:59,707][INFO] download [hcdserver-2.2.0-45.el7.noarch.rpm.md5sum] successfully!
+[2022-02-08 07:41:03,176][INFO] download [hcdcli-2.2.0b1-45.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-45.el7.noarch.rpm: OK
+[2022-02-08 07:41:03,998][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-02-10 05:09:17,708][INFO] download from ftp
+[2022-02-10 05:10:38,912][INFO] download [hcdserver-2.2.0-38.el7.noarch.rpm] successfully!
+[2022-02-10 05:10:41,156][INFO] download [hcdserver-2.2.0-38.el7.noarch.rpm.md5sum] successfully!
+[2022-02-10 05:10:44,278][INFO] download [hcdcli-2.2.0b1-38.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-38.el7.noarch.rpm: OK
+[2022-02-10 05:10:45,148][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-02-11 06:03:45,591][INFO] download from ftp
+[2022-02-14 02:20:37,862][INFO] download from ftp
+[2022-02-14 02:22:12,197][INFO] download [hcdserver-2.2.0-47.el7.noarch.rpm] successfully!
+[2022-02-14 02:22:14,701][INFO] download [hcdserver-2.2.0-47.el7.noarch.rpm.md5sum] successfully!
+[2022-02-14 02:22:18,264][INFO] download [hcdcli-2.2.0b1-47.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-47.el7.noarch.rpm: OK
+[2022-02-14 02:22:19,583][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-02-21 07:16:02,132][INFO] download from ftp
+[2022-02-21 07:17:39,530][INFO] download [hcdserver-2.2.0-48.el7.noarch.rpm] successfully!
+[2022-02-21 07:17:41,594][INFO] download [hcdserver-2.2.0-48.el7.noarch.rpm.md5sum] successfully!
+[2022-02-21 07:17:44,828][INFO] download [hcdcli-2.2.0b1-48.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-48.el7.noarch.rpm: OK
+[2022-02-21 07:17:45,622][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-02-24 09:11:11,907][INFO] download from ftp
+[2022-02-24 09:12:41,636][INFO] download [hcdserver-2.2.0-48.el7.noarch.rpm] successfully!
+[2022-02-24 09:12:44,029][INFO] download [hcdserver-2.2.0-48.el7.noarch.rpm.md5sum] successfully!
+[2022-02-24 09:12:44,039][INFO] download [hcdcli-2.2.0b1-48.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-48.el7.noarch.rpm: OK
+[2022-02-24 09:12:44,802][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-09 02:15:52,974][INFO] download from ftp
+[2022-03-09 02:18:33,630][INFO] download [hcdserver-2.1.0-183.el7.noarch.rpm] successfully!
+[2022-03-09 02:18:35,896][INFO] download [hcdserver-2.1.0-183.el7.noarch.rpm.md5sum] successfully!
+[2022-03-09 02:18:39,220][INFO] download [hcdcli-2.1.0b1-183.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-183.el7.noarch.rpm: OK
+[2022-03-09 02:18:40,786][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-10 07:30:43,349][INFO] download from ftp
+[2022-03-10 07:32:13,709][INFO] download [hcdserver-2.2.0-56.el7.noarch.rpm] successfully!
+[2022-03-10 07:32:15,937][INFO] download [hcdserver-2.2.0-56.el7.noarch.rpm.md5sum] successfully!
+[2022-03-10 07:32:19,297][INFO] download [hcdcli-2.2.0b1-56.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-56.el7.noarch.rpm: OK
+[2022-03-10 07:32:20,100][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-14 02:30:56,342][INFO] download from ftp
+[2022-03-14 02:32:17,577][INFO] download [hcdserver-2.2.0-57.el7.noarch.rpm] successfully!
+[2022-03-14 02:32:19,757][INFO] download [hcdserver-2.2.0-57.el7.noarch.rpm.md5sum] successfully!
+[2022-03-14 02:32:23,082][INFO] download [hcdcli-2.2.0b1-57.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-57.el7.noarch.rpm: OK
+[2022-03-14 02:32:23,915][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-15 06:20:05,526][INFO] download from ftp
+[2022-03-15 06:21:30,171][INFO] download [hcdserver-2.2.0-58.el7.noarch.rpm] successfully!
+[2022-03-15 06:21:32,327][INFO] download [hcdserver-2.2.0-58.el7.noarch.rpm.md5sum] successfully!
+[2022-03-15 06:21:35,532][INFO] download [hcdcli-2.2.0b1-58.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-58.el7.noarch.rpm: OK
+[2022-03-15 06:21:36,352][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-16 02:54:41,680][INFO] download from ftp
+[2022-03-16 02:56:34,861][INFO] download [hcdserver-2.2.0-59.el7.noarch.rpm] successfully!
+[2022-03-16 02:56:37,069][INFO] download [hcdserver-2.2.0-59.el7.noarch.rpm.md5sum] successfully!
+[2022-03-16 02:56:40,369][INFO] download [hcdcli-2.2.0b1-59.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-59.el7.noarch.rpm: OK
+[2022-03-16 02:56:41,183][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-17 03:18:49,945][INFO] download from ftp
+[2022-03-17 03:20:24,705][INFO] download [hcdserver-2.2.0-60.el7.noarch.rpm] successfully!
+[2022-03-17 03:20:26,880][INFO] download [hcdserver-2.2.0-60.el7.noarch.rpm.md5sum] successfully!
+[2022-03-17 03:20:30,172][INFO] download [hcdcli-2.2.0b1-60.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-60.el7.noarch.rpm: OK
+[2022-03-17 03:20:31,022][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-21 01:53:32,286][INFO] download from ftp
+[2022-03-21 01:55:01,871][INFO] download [hcdserver-2.2.0-61.el7.noarch.rpm] successfully!
+[2022-03-21 01:55:04,115][INFO] download [hcdserver-2.2.0-61.el7.noarch.rpm.md5sum] successfully!
+[2022-03-21 01:55:07,423][INFO] download [hcdcli-2.2.0b1-61.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-61.el7.noarch.rpm: OK
+[2022-03-21 01:55:08,289][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-23 05:45:35,469][INFO] download from ftp
+[2022-03-23 05:47:00,435][INFO] download [hcdserver-2.2.0-62.el7.noarch.rpm] successfully!
+[2022-03-23 05:47:02,578][INFO] download [hcdserver-2.2.0-62.el7.noarch.rpm.md5sum] successfully!
+[2022-03-23 05:47:05,804][INFO] download [hcdcli-2.2.0b1-62.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-62.el7.noarch.rpm: OK
+[2022-03-23 05:47:06,721][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-24 05:14:03,405][INFO] download from ftp
+[2022-03-24 05:16:57,720][INFO] download [hcdserver-2.1.0-151.el7.noarch.rpm] successfully!
+[2022-03-24 05:17:00,133][INFO] download [hcdserver-2.1.0-151.el7.noarch.rpm.md5sum] successfully!
+[2022-03-24 05:17:05,615][INFO] download [hcdcli-2.1.0b1-151.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-151.el7.noarch.rpm: OK
+[2022-03-24 05:17:06,450][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-24 05:28:53,142][INFO] download from ftp
+[2022-03-24 05:30:18,232][INFO] download [hcdserver-2.1.0-62.el7.noarch.rpm] successfully!
+[2022-03-24 05:30:20,356][INFO] download [hcdserver-2.1.0-62.el7.noarch.rpm.md5sum] successfully!
+[2022-03-24 05:30:23,363][INFO] download [hcdcli-2.1.0b1-62.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-62.el7.noarch.rpm: OK
+[2022-03-24 05:30:24,120][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-24 07:31:40,020][INFO] download from ftp
+[2022-03-24 07:33:21,251][INFO] download [hcdserver-2.2.0-63.el7.noarch.rpm] successfully!
+[2022-03-24 07:33:23,663][INFO] download [hcdserver-2.2.0-63.el7.noarch.rpm.md5sum] successfully!
+[2022-03-24 07:33:28,553][INFO] download [hcdcli-2.2.0b1-63.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-63.el7.noarch.rpm: OK
+[2022-03-24 07:33:29,411][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-03-30 02:50:50,975][INFO] download from ftp
+[2022-03-30 02:52:15,490][INFO] download [hcdserver-2.2.0-65.el7.noarch.rpm] successfully!
+[2022-03-30 02:52:17,651][INFO] download [hcdserver-2.2.0-65.el7.noarch.rpm.md5sum] successfully!
+[2022-03-30 02:52:21,163][INFO] download [hcdcli-2.2.0b1-65.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-65.el7.noarch.rpm: OK
+[2022-03-30 02:52:21,945][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-06 02:12:03,604][INFO] download from ftp
+[2022-04-06 02:13:33,500][INFO] download [hcdserver-2.2.0-66.el7.noarch.rpm] successfully!
+[2022-04-06 02:13:35,605][INFO] download [hcdserver-2.2.0-66.el7.noarch.rpm.md5sum] successfully!
+[2022-04-06 02:13:38,688][INFO] download [hcdcli-2.2.0b1-66.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-66.el7.noarch.rpm: OK
+[2022-04-06 02:13:39,546][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-07 07:13:53,676][INFO] download from ftp
+[2022-04-07 07:15:20,316][INFO] download [hcdserver-2.2.0-68.el7.noarch.rpm] successfully!
+[2022-04-07 07:15:22,488][INFO] download [hcdserver-2.2.0-68.el7.noarch.rpm.md5sum] successfully!
+[2022-04-07 07:15:25,777][INFO] download [hcdcli-2.2.0b1-68.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-68.el7.noarch.rpm: OK
+[2022-04-07 07:15:26,618][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-08 08:37:27,302][INFO] download from ftp
+[2022-04-08 08:38:47,268][INFO] download [hcdserver-2.2.0-69.el7.noarch.rpm] successfully!
+[2022-04-08 08:38:49,479][INFO] download [hcdserver-2.2.0-69.el7.noarch.rpm.md5sum] successfully!
+[2022-04-08 08:38:52,799][INFO] download [hcdcli-2.2.0b1-69.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-69.el7.noarch.rpm: OK
+[2022-04-08 08:38:53,735][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-11 03:42:08,281][INFO] download from ftp
+[2022-04-11 03:43:29,584][INFO] download [hcdserver-2.2.0-70.el7.noarch.rpm] successfully!
+[2022-04-11 03:43:31,800][INFO] download [hcdserver-2.2.0-70.el7.noarch.rpm.md5sum] successfully!
+[2022-04-11 03:43:35,053][INFO] download [hcdcli-2.2.0b1-70.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-70.el7.noarch.rpm: OK
+[2022-04-11 03:43:36,003][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-12 04:34:15,615][INFO] download from ftp
+[2022-04-12 04:35:35,816][INFO] download [hcdserver-2.2.0-71.el7.noarch.rpm] successfully!
+[2022-04-12 04:35:37,951][INFO] download [hcdserver-2.2.0-71.el7.noarch.rpm.md5sum] successfully!
+[2022-04-12 04:35:41,155][INFO] download [hcdcli-2.2.0b1-71.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-71.el7.noarch.rpm: OK
+[2022-04-12 04:35:42,034][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-13 09:03:26,172][INFO] download from ftp
+[2022-04-13 09:04:52,842][INFO] download [hcdserver-2.2.0-72.el7.noarch.rpm] successfully!
+[2022-04-13 09:04:54,904][INFO] download [hcdserver-2.2.0-72.el7.noarch.rpm.md5sum] successfully!
+[2022-04-13 09:04:57,991][INFO] download [hcdcli-2.2.0b1-72.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-72.el7.noarch.rpm: OK
+[2022-04-13 09:04:58,866][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-14 07:10:47,739][INFO] download from ftp
+[2022-04-14 07:12:02,183][INFO] download [hcdserver-2.1.0-65.el7.noarch.rpm] successfully!
+[2022-04-14 07:12:04,259][INFO] download [hcdserver-2.1.0-65.el7.noarch.rpm.md5sum] successfully!
+[2022-04-14 07:12:07,153][INFO] download [hcdcli-2.1.0b1-65.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-65.el7.noarch.rpm: OK
+[2022-04-14 07:12:07,866][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-15 02:46:06,926][INFO] download from ftp
+[2022-04-15 02:47:38,524][INFO] download [hcdserver-2.2.0-73.el7.noarch.rpm] successfully!
+[2022-04-15 02:47:40,638][INFO] download [hcdserver-2.2.0-73.el7.noarch.rpm.md5sum] successfully!
+[2022-04-15 02:47:43,822][INFO] download [hcdcli-2.2.0b1-73.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-73.el7.noarch.rpm: OK
+[2022-04-15 02:47:44,677][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[31m[2022-04-19 07:50:26,853][ERROR][0m didn't find the build folder in ftp server
+[33m[2022-04-19 07:50:26,859][WARN][0m please check build id!
+[2022-04-19 07:53:27,817][INFO] download from ftp
+[2022-04-19 07:54:43,616][INFO] download [hcdserver-2.1.0-73.el7.noarch.rpm] successfully!
+[2022-04-19 07:54:45,750][INFO] download [hcdserver-2.1.0-73.el7.noarch.rpm.md5sum] successfully!
+[2022-04-19 07:54:48,717][INFO] download [hcdcli-2.1.0b1-73.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-73.el7.noarch.rpm: OK
+[2022-04-19 07:54:49,491][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-19 10:25:59,450][INFO] download from ftp
+[2022-04-19 10:27:30,228][INFO] download [hcdserver-2.2.0-74.el7.noarch.rpm] successfully!
+[2022-04-19 10:27:32,452][INFO] download [hcdserver-2.2.0-74.el7.noarch.rpm.md5sum] successfully!
+[2022-04-19 10:27:35,765][INFO] download [hcdcli-2.2.0b1-74.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-74.el7.noarch.rpm: OK
+[2022-04-19 10:27:36,613][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[31m[2022-04-20 06:01:30,755][ERROR][0m didn't find the build folder in ftp server
+[33m[2022-04-20 06:01:30,760][WARN][0m please check build id!
+[2022-04-22 02:17:59,105][INFO] download from ftp
+[2022-04-22 02:19:26,069][INFO] download [hcdserver-2.2.0-75.el7.noarch.rpm] successfully!
+[2022-04-22 02:19:28,249][INFO] download [hcdserver-2.2.0-75.el7.noarch.rpm.md5sum] successfully!
+[2022-04-22 02:19:31,536][INFO] download [hcdcli-2.2.0b1-75.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-75.el7.noarch.rpm: OK
+[2022-04-22 02:19:32,417][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-24 06:31:42,825][INFO] download from ftp
+[2022-04-24 06:33:04,307][INFO] download [hcdserver-2.2.0-76.el7.noarch.rpm] successfully!
+[2022-04-24 06:33:06,516][INFO] download [hcdserver-2.2.0-76.el7.noarch.rpm.md5sum] successfully!
+[2022-04-24 06:33:09,775][INFO] download [hcdcli-2.2.0b1-76.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-76.el7.noarch.rpm: OK
+[2022-04-24 06:33:10,681][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-26 04:57:13,053][INFO] download from ftp
+[2022-04-26 04:58:38,445][INFO] download [hcdserver-2.2.0-77.el7.noarch.rpm] successfully!
+[2022-04-26 04:58:40,820][INFO] download [hcdserver-2.2.0-77.el7.noarch.rpm.md5sum] successfully!
+[2022-04-26 04:58:44,056][INFO] download [hcdcli-2.2.0b1-77.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-77.el7.noarch.rpm: OK
+[2022-04-26 04:58:44,826][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-27 08:40:34,849][INFO] download from ftp
+[2022-04-27 08:42:04,102][INFO] download [hcdserver-2.2.0-78.el7.noarch.rpm] successfully!
+[2022-04-27 08:42:06,268][INFO] download [hcdserver-2.2.0-78.el7.noarch.rpm.md5sum] successfully!
+[2022-04-27 08:42:09,498][INFO] download [hcdcli-2.2.0b1-78.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-78.el7.noarch.rpm: OK
+[2022-04-27 08:42:10,275][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-04-28 08:18:04,858][INFO] download from ftp
+[2022-04-28 08:19:30,471][INFO] download [hcdserver-2.2.0-79.el7.noarch.rpm] successfully!
+[2022-04-28 08:19:32,654][INFO] download [hcdserver-2.2.0-79.el7.noarch.rpm.md5sum] successfully!
+[2022-04-28 08:19:35,870][INFO] download [hcdcli-2.2.0b1-79.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-79.el7.noarch.rpm: OK
+[2022-04-28 08:19:36,694][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-05 01:45:38,807][INFO] download from ftp
+[2022-05-05 01:53:27,858][INFO] download [hcdserver-2.2.0-83.el7.noarch.rpm] successfully!
+[2022-05-05 01:53:30,384][INFO] download [hcdserver-2.2.0-83.el7.noarch.rpm.md5sum] successfully!
+[2022-05-05 01:53:36,425][INFO] download [hcdcli-2.2.0b1-83.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-83.el7.noarch.rpm: OK
+[2022-05-05 01:53:37,343][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-06 10:16:14,021][INFO] download from ftp
+[2022-05-06 10:17:40,132][INFO] download [hcdserver-2.2.0-84.el7.noarch.rpm] successfully!
+[2022-05-06 10:17:42,250][INFO] download [hcdserver-2.2.0-84.el7.noarch.rpm.md5sum] successfully!
+[2022-05-06 10:17:45,408][INFO] download [hcdcli-2.2.0b1-84.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-84.el7.noarch.rpm: OK
+[2022-05-06 10:17:46,242][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-09 07:20:16,448][INFO] download from ftp
+[2022-05-09 07:22:58,620][INFO] download [hcdserver-2.2.0-85.el7.noarch.rpm] successfully!
+[2022-05-09 07:23:00,831][INFO] download [hcdserver-2.2.0-85.el7.noarch.rpm.md5sum] successfully!
+[2022-05-09 07:23:04,073][INFO] download [hcdcli-2.2.0b1-85.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-85.el7.noarch.rpm: OK
+[2022-05-09 07:23:04,955][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-11 02:49:50,814][INFO] download from ftp
+[2022-05-11 02:51:34,966][INFO] download [hcdserver-2.2.0-86.el7.noarch.rpm] successfully!
+[2022-05-11 02:51:37,091][INFO] download [hcdserver-2.2.0-86.el7.noarch.rpm.md5sum] successfully!
+[2022-05-11 02:51:40,234][INFO] download [hcdcli-2.2.0b1-86.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-86.el7.noarch.rpm: OK
+[2022-05-11 02:51:41,092][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-11 07:40:46,395][INFO] download from ftp
+[2022-05-11 07:42:10,257][INFO] download [hcdserver-2.2.0-87.el7.noarch.rpm] successfully!
+[2022-05-11 07:42:12,296][INFO] download [hcdserver-2.2.0-87.el7.noarch.rpm.md5sum] successfully!
+[2022-05-11 07:42:15,391][INFO] download [hcdcli-2.2.0b1-87.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-87.el7.noarch.rpm: OK
+[2022-05-11 07:42:16,254][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-12 09:41:57,610][INFO] download from ftp
+[2022-05-12 09:43:30,334][INFO] download [hcdserver-2.2.0-88.el7.noarch.rpm] successfully!
+[2022-05-12 09:43:32,499][INFO] download [hcdserver-2.2.0-88.el7.noarch.rpm.md5sum] successfully!
+[2022-05-12 09:43:35,702][INFO] download [hcdcli-2.2.0b1-88.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-88.el7.noarch.rpm: OK
+[2022-05-12 09:43:36,608][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-16 02:28:12,367][INFO] download from ftp
+[2022-05-16 02:29:50,111][INFO] download [hcdserver-2.2.0-90.el7.noarch.rpm] successfully!
+[2022-05-16 02:29:52,238][INFO] download [hcdserver-2.2.0-90.el7.noarch.rpm.md5sum] successfully!
+[2022-05-16 02:29:55,470][INFO] download [hcdcli-2.2.0b1-90.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-90.el7.noarch.rpm: OK
+[2022-05-16 02:29:56,320][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-16 06:12:42,288][INFO] download from ftp
+[2022-05-16 06:14:27,965][INFO] download [hcdserver-2.1.0-184.el7.noarch.rpm] successfully!
+[2022-05-16 06:14:30,083][INFO] download [hcdserver-2.1.0-184.el7.noarch.rpm.md5sum] successfully!
+[2022-05-16 06:14:33,097][INFO] download [hcdcli-2.1.0b1-184.el7.noarch.rpm] successfully!
+hcdserver-2.1.0-184.el7.noarch.rpm: OK
+[2022-05-16 06:14:33,860][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-18 02:49:14,411][INFO] download from ftp
+[2022-05-18 02:50:40,615][INFO] download [hcdserver-2.2.0-92.el7.noarch.rpm] successfully!
+[2022-05-18 02:50:42,784][INFO] download [hcdserver-2.2.0-92.el7.noarch.rpm.md5sum] successfully!
+[2022-05-18 02:50:46,073][INFO] download [hcdcli-2.2.0b1-92.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-92.el7.noarch.rpm: OK
+[2022-05-18 02:50:46,932][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-23 06:18:36,157][INFO] download from ftp
+[2022-05-23 06:20:11,061][INFO] download [hcdserver-2.2.0-95.el7.noarch.rpm] successfully!
+[2022-05-23 06:20:13,279][INFO] download [hcdserver-2.2.0-95.el7.noarch.rpm.md5sum] successfully!
+[2022-05-23 06:20:16,805][INFO] download [hcdcli-2.2.0b1-95.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-95.el7.noarch.rpm: OK
+[2022-05-23 06:20:17,662][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-23 08:49:47,308][INFO] download from ftp
+[2022-05-23 08:54:31,274][INFO] download [hcdserver-2.2.0-96.el7.noarch.rpm] successfully!
+[2022-05-23 08:54:33,883][INFO] download [hcdserver-2.2.0-96.el7.noarch.rpm.md5sum] successfully!
+[2022-05-23 08:54:57,475][INFO] download [hcdcli-2.2.0b1-96.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-96.el7.noarch.rpm: OK
+[2022-05-23 08:54:58,323][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-26 10:21:00,015][INFO] download from ftp
+[2022-05-26 10:22:29,946][INFO] download [hcdserver-2.2.0-98.el7.noarch.rpm] successfully!
+[2022-05-26 10:22:32,170][INFO] download [hcdserver-2.2.0-98.el7.noarch.rpm.md5sum] successfully!
+[2022-05-26 10:22:35,488][INFO] download [hcdcli-2.2.0b1-98.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-98.el7.noarch.rpm: OK
+[2022-05-26 10:22:36,330][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-27 03:24:45,188][INFO] download from ftp
+[2022-05-27 03:26:39,049][INFO] download [hcdserver-2.2.0-97.el7.noarch.rpm] successfully!
+[2022-05-27 03:26:41,255][INFO] download [hcdserver-2.2.0-97.el7.noarch.rpm.md5sum] successfully!
+[2022-05-27 03:26:44,491][INFO] download [hcdcli-2.2.0b1-97.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-97.el7.noarch.rpm: OK
+[2022-05-27 03:26:45,359][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-05-30 07:50:23,832][INFO] download from ftp
+[2022-05-30 07:51:56,535][INFO] download [hcdserver-2.2.0-101.el7.noarch.rpm] successfully!
+[2022-05-30 07:51:58,667][INFO] download [hcdserver-2.2.0-101.el7.noarch.rpm.md5sum] successfully!
+[2022-05-30 07:52:01,864][INFO] download [hcdcli-2.2.0b1-101.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-101.el7.noarch.rpm: OK
+[2022-05-30 07:52:02,758][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-01 06:52:28,949][INFO] download from ftp
+[2022-06-01 06:54:05,470][INFO] download [hcdserver-2.2.0-102.el7.noarch.rpm] successfully!
+[2022-06-01 06:54:07,541][INFO] download [hcdserver-2.2.0-102.el7.noarch.rpm.md5sum] successfully!
+[2022-06-01 06:54:10,651][INFO] download [hcdcli-2.2.0b1-102.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-102.el7.noarch.rpm: OK
+[2022-06-01 06:54:11,564][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-06 06:18:58,878][INFO] download from ftp
+[2022-06-06 06:20:30,570][INFO] download [hcdserver-2.2.0-103.el7.noarch.rpm] successfully!
+[2022-06-06 06:20:32,810][INFO] download [hcdserver-2.2.0-103.el7.noarch.rpm.md5sum] successfully!
+[2022-06-06 06:20:36,163][INFO] download [hcdcli-2.2.0b1-103.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-103.el7.noarch.rpm: OK
+[2022-06-06 06:20:37,131][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-08 02:51:42,420][INFO] download from ftp
+[2022-06-08 02:53:45,769][INFO] download [hcdserver-2.2.0-104.el7.noarch.rpm] successfully!
+[2022-06-08 02:53:48,013][INFO] download [hcdserver-2.2.0-104.el7.noarch.rpm.md5sum] successfully!
+[2022-06-08 02:53:51,327][INFO] download [hcdcli-2.2.0b1-104.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-104.el7.noarch.rpm: OK
+[2022-06-08 02:53:52,214][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[31m[2022-06-10 06:07:06,260][ERROR][0m didn't find the build folder in ftp server
+[33m[2022-06-10 06:07:06,265][WARN][0m please check build id!
+[31m[2022-06-10 06:07:25,932][ERROR][0m didn't find the build folder in ftp server
+[33m[2022-06-10 06:07:25,937][WARN][0m please check build id!
+[2022-06-10 06:07:42,407][INFO] download from ftp
+[2022-06-10 06:09:22,204][INFO] download [hcdserver-2.2.0-100.el7.noarch.rpm] successfully!
+[2022-06-10 06:09:24,432][INFO] download [hcdserver-2.2.0-100.el7.noarch.rpm.md5sum] successfully!
+[2022-06-10 06:09:27,828][INFO] download [hcdcli-2.2.0b1-100.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-100.el7.noarch.rpm: OK
+[2022-06-10 06:09:28,653][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-13 03:01:39,458][INFO] download from ftp
+[2022-06-13 03:03:28,264][INFO] download [hcdserver-2.2.0-105.el7.noarch.rpm] successfully!
+[2022-06-13 03:03:30,554][INFO] download [hcdserver-2.2.0-105.el7.noarch.rpm.md5sum] successfully!
+[2022-06-13 03:03:33,911][INFO] download [hcdcli-2.2.0b1-105.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-105.el7.noarch.rpm: OK
+[2022-06-13 03:03:34,751][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-15 09:35:09,735][INFO] download from ftp
+[2022-06-15 09:36:35,868][INFO] download [hcdserver-2.2.0-106.el7.noarch.rpm] successfully!
+[2022-06-15 09:36:37,888][INFO] download [hcdserver-2.2.0-106.el7.noarch.rpm.md5sum] successfully!
+[2022-06-15 09:36:40,905][INFO] download [hcdcli-2.2.0b1-106.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-106.el7.noarch.rpm: OK
+[2022-06-15 09:36:41,704][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-17 06:42:40,116][INFO] download from ftp
+[2022-06-17 06:44:45,156][INFO] download [hcdserver-2.2.0-107.el7.noarch.rpm] successfully!
+[2022-06-17 06:44:47,364][INFO] download [hcdserver-2.2.0-107.el7.noarch.rpm.md5sum] successfully!
+[2022-06-17 06:44:50,518][INFO] download [hcdcli-2.2.0b1-107.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-107.el7.noarch.rpm: OK
+[2022-06-17 06:44:51,366][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-21 08:39:58,009][INFO] download from ftp
+[2022-06-21 08:41:29,936][INFO] download [hcdserver-2.2.0-108.el7.noarch.rpm] successfully!
+[2022-06-21 08:41:32,216][INFO] download [hcdserver-2.2.0-108.el7.noarch.rpm.md5sum] successfully!
+[2022-06-21 08:41:35,519][INFO] download [hcdcli-2.2.0b1-108.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-108.el7.noarch.rpm: OK
+[2022-06-21 08:41:36,332][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-24 07:47:29,282][INFO] download from ftp
+[2022-06-24 07:48:55,341][INFO] download [hcdserver-2.2.0-110.el7.noarch.rpm] successfully!
+[2022-06-24 07:48:57,483][INFO] download [hcdserver-2.2.0-110.el7.noarch.rpm.md5sum] successfully!
+[2022-06-24 07:49:00,681][INFO] download [hcdcli-2.2.0b1-110.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-110.el7.noarch.rpm: OK
+[2022-06-24 07:49:01,566][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-27 02:53:13,582][INFO] download from ftp
+[2022-06-27 02:54:48,908][INFO] download [hcdserver-2.2.0-111.el7.noarch.rpm] successfully!
+[2022-06-27 02:54:51,170][INFO] download [hcdserver-2.2.0-111.el7.noarch.rpm.md5sum] successfully!
+[2022-06-27 02:54:54,568][INFO] download [hcdcli-2.2.0b1-111.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-111.el7.noarch.rpm: OK
+[2022-06-27 02:54:55,407][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-06-29 08:39:53,258][INFO] download from ftp
+[2022-06-29 08:41:36,456][INFO] download [hcdserver-2.2.0-112.el7.noarch.rpm] successfully!
+[2022-06-29 08:41:38,676][INFO] download [hcdserver-2.2.0-112.el7.noarch.rpm.md5sum] successfully!
+[2022-06-29 08:41:41,926][INFO] download [hcdcli-2.2.0b1-112.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-112.el7.noarch.rpm: OK
+[2022-06-29 08:41:42,808][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-01 07:02:31,055][INFO] download from ftp
+[2022-07-01 07:02:40,040][INFO] download [hcdserver-2.2.0-113.el7.noarch.rpm] successfully!
+[2022-07-01 07:36:37,444][INFO] download from ftp
+[2022-07-01 07:38:14,958][INFO] download [hcdserver-2.2.0-113.el7.noarch.rpm] successfully!
+[2022-07-01 07:38:17,177][INFO] download [hcdserver-2.2.0-113.el7.noarch.rpm.md5sum] successfully!
+[2022-07-01 07:38:20,436][INFO] download [hcdcli-2.2.0b1-113.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-113.el7.noarch.rpm: OK
+[2022-07-01 07:38:21,429][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-02 09:29:28,603][INFO] download from ftp
+[2022-07-02 09:30:54,608][INFO] download [hcdserver-2.2.0-114.el7.noarch.rpm] successfully!
+[2022-07-02 09:30:56,824][INFO] download [hcdserver-2.2.0-114.el7.noarch.rpm.md5sum] successfully!
+[2022-07-02 09:31:00,126][INFO] download [hcdcli-2.2.0b1-114.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-114.el7.noarch.rpm: OK
+[2022-07-02 09:31:00,957][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-04 02:08:42,507][INFO] download from ftp
+[2022-07-04 02:12:10,168][INFO] download [hcdserver-2.2.0-115.el7.noarch.rpm] successfully!
+[2022-07-04 02:12:12,700][INFO] download [hcdserver-2.2.0-115.el7.noarch.rpm.md5sum] successfully!
+[2022-07-04 02:12:17,563][INFO] download [hcdcli-2.2.0b1-115.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-115.el7.noarch.rpm: OK
+[2022-07-04 02:12:18,557][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-06 02:06:42,321][INFO] download from ftp
+[2022-07-06 02:08:25,924][INFO] download [hcdserver-2.2.0-116.el7.noarch.rpm] successfully!
+[2022-07-06 02:08:28,104][INFO] download [hcdserver-2.2.0-116.el7.noarch.rpm.md5sum] successfully!
+[2022-07-06 02:08:31,698][INFO] download [hcdcli-2.2.0b1-116.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-116.el7.noarch.rpm: OK
+[2022-07-06 02:08:32,587][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-06 08:13:22,223][INFO] download from ftp
+[2022-07-06 08:14:53,385][INFO] download [hcdserver-2.2.0-117.el7.noarch.rpm] successfully!
+[2022-07-06 08:14:55,561][INFO] download [hcdserver-2.2.0-117.el7.noarch.rpm.md5sum] successfully!
+[2022-07-06 08:14:58,757][INFO] download [hcdcli-2.2.0b1-117.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-117.el7.noarch.rpm: OK
+[2022-07-06 08:14:59,752][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-07 08:33:58,391][INFO] download from ftp
+[2022-07-07 08:35:24,514][INFO] download [hcdserver-2.2.0-118.el7.noarch.rpm] successfully!
+[2022-07-07 08:35:26,671][INFO] download [hcdserver-2.2.0-118.el7.noarch.rpm.md5sum] successfully!
+[2022-07-07 08:35:29,911][INFO] download [hcdcli-2.2.0b1-118.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-118.el7.noarch.rpm: OK
+[2022-07-07 08:35:30,744][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-08 05:40:33,801][INFO] download from ftp
+[2022-07-08 05:42:15,276][INFO] download [hcdserver-2.2.0-119.el7.noarch.rpm] successfully!
+[2022-07-08 05:42:18,092][INFO] download [hcdserver-2.2.0-119.el7.noarch.rpm.md5sum] successfully!
+[2022-07-08 05:42:29,618][INFO] download [hcdcli-2.2.0b1-119.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-119.el7.noarch.rpm: OK
+[2022-07-08 05:42:30,534][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-11 05:41:37,053][INFO] download from ftp
+[2022-07-11 05:43:06,308][INFO] download [hcdserver-2.2.0-121.el7.noarch.rpm] successfully!
+[2022-07-11 05:43:08,446][INFO] download [hcdserver-2.2.0-121.el7.noarch.rpm.md5sum] successfully!
+[2022-07-11 05:43:11,750][INFO] download [hcdcli-2.2.0b1-121.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-121.el7.noarch.rpm: OK
+[2022-07-11 05:43:12,695][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-14 07:06:24,146][INFO] download from ftp
+[2022-07-14 07:07:56,382][INFO] download [hcdserver-2.2.0-123.el7.noarch.rpm] successfully!
+[2022-07-14 07:07:58,597][INFO] download [hcdserver-2.2.0-123.el7.noarch.rpm.md5sum] successfully!
+[2022-07-14 07:08:01,916][INFO] download [hcdcli-2.2.0b1-123.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-123.el7.noarch.rpm: OK
+[2022-07-14 07:08:02,895][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-16 04:09:45,365][INFO] download from ftp
+[2022-07-16 04:11:09,429][INFO] download [hcdserver-2.2.0-125.el7.noarch.rpm] successfully!
+[2022-07-16 04:11:11,606][INFO] download [hcdserver-2.2.0-125.el7.noarch.rpm.md5sum] successfully!
+[2022-07-16 04:11:14,830][INFO] download [hcdcli-2.2.0b1-125.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-125.el7.noarch.rpm: OK
+[2022-07-16 04:11:15,471][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-19 05:44:38,993][INFO] download from ftp
+[2022-07-19 05:49:08,785][INFO] download [hcdserver-2.2.0-126.el7.noarch.rpm] successfully!
+[2022-07-19 05:49:10,868][INFO] download [hcdserver-2.2.0-126.el7.noarch.rpm.md5sum] successfully!
+[2022-07-19 05:49:14,195][INFO] download [hcdcli-2.2.0b1-126.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-126.el7.noarch.rpm: OK
+[2022-07-19 05:49:15,073][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-20 02:17:46,753][INFO] download from ftp
+[2022-07-20 02:19:28,820][INFO] download [hcdserver-2.2.0-127.el7.noarch.rpm] successfully!
+[2022-07-20 02:19:31,167][INFO] download [hcdserver-2.2.0-127.el7.noarch.rpm.md5sum] successfully!
+[2022-07-20 02:19:34,802][INFO] download [hcdcli-2.2.0b1-127.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-127.el7.noarch.rpm: OK
+[2022-07-20 02:19:35,599][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-21 02:41:06,802][INFO] download from ftp
+[2022-07-21 02:43:24,078][INFO] download [hcdserver-2.2.0-129.el7.noarch.rpm] successfully!
+[2022-07-21 02:43:26,243][INFO] download [hcdserver-2.2.0-129.el7.noarch.rpm.md5sum] successfully!
+[2022-07-21 02:43:29,499][INFO] download [hcdcli-2.2.0b1-129.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-129.el7.noarch.rpm: OK
+[2022-07-21 02:43:30,375][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-22 08:09:01,911][INFO] download from ftp
+[2022-07-22 08:10:27,401][INFO] download [hcdserver-2.2.0-130.el7.noarch.rpm] successfully!
+[2022-07-22 08:10:29,485][INFO] download [hcdserver-2.2.0-130.el7.noarch.rpm.md5sum] successfully!
+[2022-07-22 08:10:32,563][INFO] download [hcdcli-2.2.0b1-130.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-130.el7.noarch.rpm: OK
+[2022-07-22 08:10:33,382][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-25 02:33:50,066][INFO] download from ftp
+[2022-07-25 02:35:44,215][INFO] download [hcdserver-2.2.0-131.el7.noarch.rpm] successfully!
+[2022-07-25 02:35:46,260][INFO] download [hcdserver-2.2.0-131.el7.noarch.rpm.md5sum] successfully!
+[2022-07-25 02:35:49,539][INFO] download [hcdcli-2.2.0b1-131.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-131.el7.noarch.rpm: OK
+[2022-07-25 02:35:50,466][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-26 07:10:07,737][INFO] download from ftp
+[2022-07-26 07:11:43,802][INFO] download [hcdserver-2.2.0-132.el7.noarch.rpm] successfully!
+[2022-07-26 07:11:45,820][INFO] download [hcdserver-2.2.0-132.el7.noarch.rpm.md5sum] successfully!
+[2022-07-26 07:11:48,892][INFO] download [hcdcli-2.2.0b1-132.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-132.el7.noarch.rpm: OK
+[2022-07-26 07:11:49,731][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-27 09:50:20,396][INFO] download from ftp
+[2022-07-27 09:51:49,894][INFO] download [hcdserver-2.2.0-133.el7.noarch.rpm] successfully!
+[2022-07-27 09:51:52,122][INFO] download [hcdserver-2.2.0-133.el7.noarch.rpm.md5sum] successfully!
+[2022-07-27 09:51:55,427][INFO] download [hcdcli-2.2.0b1-133.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-133.el7.noarch.rpm: OK
+[2022-07-27 09:51:56,235][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-28 09:07:48,161][INFO] download from ftp
+[2022-07-28 09:09:21,316][INFO] download [hcdserver-2.2.0-134.el7.noarch.rpm] successfully!
+[2022-07-28 09:09:23,461][INFO] download [hcdserver-2.2.0-134.el7.noarch.rpm.md5sum] successfully!
+[2022-07-28 09:09:26,653][INFO] download [hcdcli-2.2.0b1-134.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-134.el7.noarch.rpm: OK
+[2022-07-28 09:09:27,553][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-29 06:01:51,730][INFO] download from ftp
+[2022-07-29 06:03:26,632][INFO] download [hcdserver-2.2.0-135.el7.noarch.rpm] successfully!
+[2022-07-29 06:03:28,825][INFO] download [hcdserver-2.2.0-135.el7.noarch.rpm.md5sum] successfully!
+[2022-07-29 06:03:32,821][INFO] download [hcdcli-2.2.0b1-135.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-135.el7.noarch.rpm: OK
+[2022-07-29 06:03:33,625][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-07-30 05:56:37,108][INFO] download from ftp
+[2022-07-30 05:58:05,767][INFO] download [hcdserver-2.2.0-136.el7.noarch.rpm] successfully!
+[2022-07-30 05:58:07,922][INFO] download [hcdserver-2.2.0-136.el7.noarch.rpm.md5sum] successfully!
+[2022-07-30 05:58:11,166][INFO] download [hcdcli-2.2.0b1-136.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-136.el7.noarch.rpm: OK
+[2022-07-30 05:58:12,038][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-08-01 09:55:24,011][INFO] download from ftp
+[2022-08-01 09:56:57,705][INFO] download [hcdserver-2.2.0-137.el7.noarch.rpm] successfully!
+[2022-08-01 09:56:59,949][INFO] download [hcdserver-2.2.0-137.el7.noarch.rpm.md5sum] successfully!
+[2022-08-01 09:57:03,265][INFO] download [hcdcli-2.2.0b1-137.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-137.el7.noarch.rpm: OK
+[2022-08-01 09:57:04,130][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-08-02 02:45:27,020][INFO] download from ftp
+[2022-08-02 02:47:09,077][INFO] download [hcdserver-2.2.0-138.el7.noarch.rpm] successfully!
+[2022-08-02 02:47:11,139][INFO] download [hcdserver-2.2.0-138.el7.noarch.rpm.md5sum] successfully!
+[2022-08-02 02:47:15,287][INFO] download [hcdcli-2.2.0b1-138.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-138.el7.noarch.rpm: OK
+[2022-08-02 02:47:16,189][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-08-03 02:12:07,400][INFO] download from ftp
+[2022-08-03 02:13:35,834][INFO] download [hcdserver-2.2.0-140.el7.noarch.rpm] successfully!
+[2022-08-03 02:13:37,941][INFO] download [hcdserver-2.2.0-140.el7.noarch.rpm.md5sum] successfully!
+[2022-08-03 02:13:41,039][INFO] download [hcdcli-2.2.0b1-140.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-140.el7.noarch.rpm: OK
+[2022-08-03 02:13:42,066][INFO] complete to check md5sum, md5sum is consistent with ftp!
+[2022-08-05 07:18:06,508][INFO] download from ftp
+[2022-08-05 07:19:07,935][INFO] download [hcdserver-2.2.0-141.el7.noarch.rpm] successfully!
+[2022-08-05 07:19:10,191][INFO] download [hcdserver-2.2.0-141.el7.noarch.rpm.md5sum] successfully!
+[2022-08-05 07:19:15,259][INFO] download [hcdcli-2.2.0b1-141.el7.noarch.rpm] successfully!
+hcdserver-2.2.0-141.el7.noarch.rpm: OK
+[2022-08-05 07:19:16,190][INFO] complete to check md5sum, md5sum is consistent with ftp!

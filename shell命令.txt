@@ -1,0 +1,7 @@
+#for i in $(cat ips.txt)
+#do
+#   ssh root@$i sudo rpm -qa | grep hcdserver
+#done
+
+
+
